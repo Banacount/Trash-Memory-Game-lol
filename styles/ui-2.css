@@ -1,0 +1,19 @@
+
+
+#UI-2 {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: none; /* Do flex for revealing */
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.95;
+    background-color: var(--color-font-2);
+}
+#memoryNum {
+    font-size: 5rem;
+    font-family: 'Bungee';
+    color: var(--color-bg-1);
+}

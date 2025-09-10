@@ -1,0 +1,40 @@
+
+@keyframes card-drop-keyframes {
+    from {
+        transform: translateY(0%) rotate(0deg);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(70%) rotate(45deg);
+        opacity: 0;
+    }
+}
+@keyframes card-wrong-keyframes {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(25deg);
+    }
+    20% {
+        transform: rotate(-30deg);
+    }
+    50% {
+        transform: rotate(46deg);
+    }
+    70% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.card-drop {
+    animation: ease-out 0.6s card-drop-keyframes;
+}
+
+.card-wrong {
+    animation: linear 0.3s card-wrong-keyframes;
+}
